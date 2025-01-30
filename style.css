@@ -171,4 +171,15 @@ a {
     flex-direction: column;
     width: 100%;
   }
+  [data-testid="shortBio"] {
+    width: 100%;
+  }
+  .other {
+    width: 100%;
+  }
+  [data-testid="socialLinks"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
 }
