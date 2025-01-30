@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>My Profile Card</title>
+  </head>
+  <body>
+    <div data-testid="profileCard">
+      <div class="flex-profile">
+        <div class="navbar">
+          <img src="img/profilepic.jpg" alt="profile-header" />
+          <h2 data-testid="fullName">Adetoun Adewale</h2>
+        </div>
+        <img
+          data-testid="profilePicture"
+          src="img/picture.jpg"
+          alt="profile-picture"
+        />
+        <p data-testid="jobTitle">Frontend Developer</p>
+      </div>
+      <div class="flex-info">
+        <h1>
+          Hello, <br />
+          <span>Adetoun here</span>
+        </h1>
+        <p>Explore further and discover:</p>
+        <div data-testid="shortBio">
+          <h3>
+            DIVE DEEPER <br />
+            <span>INTO MY STORY</span>
+          </h3>
+          <p class="show">
+            An aspiring Frontend Developer, passionate about making a difference
+            globally with a flair for creativity and a keen eye for details.
+            Also a Compassionate and detail-oriented sociology graduate with an
+            interest in solving social issues in the society. I have experience working with:
+            <ul>
+                <li id="html">HTML+CSS</li>
+                <li>Javascript</li>
+                <li>React (beginner)</li>
+            </ul>
+          </p>
+          <button>read more</button>
+          <p class="hidden">
+            <i class="fa-solid fa-x close"></i>
+            I delved into the tech world shortly after my sign-out from the
+            university and it's been an amazing journey. I've worked on
+            different project which can be found on my github and linkedIn
+            profile, I can't ignore the fact that there has been some challenges
+            I've faced in my learning journey but everything has been able to
+            shape me into a better developer and this is why I enrolled for the
+            hng-12 internship.
+          </p>
+        </div>
+        <div class="other">
+          <p data-testid="currentLocation">
+            <i class="fa-solid fa-location-dot"></i> Sango, Ogun Stae
+          </p>
+          <p data-testid="emailAddress">
+            <i class="fa-solid fa-envelope"></i> adewale.adetoun@yahoo.com
+          </p>
+          <p><i class="fa-solid fa-clock"></i> <span data-testid="currentTimeUTC"></span></p>
+        </div>
+        <div data-testid="socialLinks">
+          <i class="fa-brands fa-linkedin"
+            ><a
+              href="https://www.linkedin.com/in/adetoun-adewale-3b9353297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            >
+              Adetoun Adewale</a
+            ></i
+          >
+          <i class="fa-brands fa-github"
+            ><a href="https://github.com/Adeetoun?tab=repositories">
+              Adeetoun</a
+            >
+          </i>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
