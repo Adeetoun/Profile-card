@@ -171,6 +171,9 @@ a {
     flex-direction: column;
     width: 100%;
   }
+  .navbar {
+    width: 80%;
+  }
   [data-testid="shortBio"] {
     width: 100%;
   }
