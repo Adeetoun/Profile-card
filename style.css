@@ -177,6 +177,9 @@ a {
   [data-testid="shortBio"] {
     width: 100%;
   }
+  ul {
+    padding: 5px;
+  }
   .other {
     width: 100%;
   }
